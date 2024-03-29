@@ -23,6 +23,11 @@ word = "Python"
 repeated_word = word * 5
 print(repeated_word)
 
+word = "My name is Jerry."
+word_repeat = " ".join([word] * 5)
+print(word_repeat)
+
+
 # Question 5: Update Variable
 x += 5
 print(x)
