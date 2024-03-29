@@ -27,6 +27,11 @@ word = "My name is Jerry."
 word_repeat = " ".join([word] * 5)
 print(word_repeat)
 
+# Create a variable word with a string value. Repeat the string five times and print the result.
+word = "Python"
+repeated_word = (word + " ")*5
+print(f"The string five times: {repeated_word}")
+
 
 # Question 5: Update Variable
 x += 5
